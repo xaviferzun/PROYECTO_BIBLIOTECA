@@ -6,7 +6,14 @@ def menu_ingreso():
                        '\n\t3. Buscar libro por título'
                        '\n\t4. Inscribir usuario'
                        '\n\t5. Inscribir empleado'
-                       '\n\t6. Salir del sistema\n'))
+                       '\n\t6. Eliminar libros'
+                       '\n\t7. Reservar libro'
+                       '\n\t8. Filtrar libros'
+                       '\n\t9. Modificar atributos del libro'
+                       '\n\t10. Prestamo de libro'
+                       '\n\t11. Devolución de libro'
+                       '\n\t12. Generar informe'
+                       '\n\tS. Salir del sistema\n'))
     if opcion ==1:
         print('Añadiendo el nuevo libro')
     elif opcion ==2:
@@ -17,8 +24,23 @@ def menu_ingreso():
         print('Usuario inscrito')
     elif opcion ==5:
         print('Empleado instrito')
+    elif opcion ==6:
+        print('Libro eliminado')
+    elif opcion ==7:
+        print('Libro reservado')
+    elif opcion ==8:
+        print('Atributos modificados')
+    elif opcion ==9:
+        print('Atributos modificados')
+    elif opcion ==10:
+        print('Préstamo realizado')
+    elif opcion ==11:
+        print('Libro devuelto')
+    elif opcion ==12:
+        print('Informe generado')
     else:
         print('¡Opción no valida!')
+
 
 
 
